@@ -5,13 +5,12 @@ cask "rascal" do
   sha256 arm:   "38acd4f51807cd554ba8d0bebf9f5243fc6c938d79efa0ec5de25dc4b7d605c5",
          intel: "16df1682dfac8a7b2055b1ee4703404cd964000b91c05dea7181a4af444fd58a"
 
-  url "https://github.com/chang-07/rascal/releases/download/v#{version}/Rascal-#{arch}.dmg",
-      verified: "github.com/chang-07/rascal/"
+  url "https://github.com/chang-07/rascal/releases/download/v#{version}/Rascal-#{arch}.dmg"
   name "Rascal"
   desc "Fast, keyboard-first Finder replacement"
   homepage "https://github.com/chang-07/rascal"
 
-  depends_on :macos
+  depends_on macos: :ventura
 
   app "Rascal.app"
 
