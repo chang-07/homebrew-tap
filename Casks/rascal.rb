@@ -1,9 +1,9 @@
 cask "rascal" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "0.1.3"
-  sha256 arm:   "38acd4f51807cd554ba8d0bebf9f5243fc6c938d79efa0ec5de25dc4b7d605c5",
-         intel: "16df1682dfac8a7b2055b1ee4703404cd964000b91c05dea7181a4af444fd58a"
+  version "0.1.4"
+  sha256 arm:   "fa6554fcab75a83c9920024446d33fdb698d7e2c76aa4f25252d895bc4158dbb",
+         intel: "f0476f992c24328cfb45d79f85bb56611f04442e5eb4f94d6f576638d419228c"
 
   url "https://github.com/chang-07/rascal/releases/download/v#{version}/Rascal-#{arch}.dmg"
   name "Rascal"
