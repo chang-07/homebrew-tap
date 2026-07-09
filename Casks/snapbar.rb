@@ -1,6 +1,6 @@
 cask "snapbar" do
-  version "0.1.2"
-  sha256 "ab9022c0ab09c47825e3fdb251147eaf473259104d80abbd1e01d20c1a6826a1"
+  version "0.1.3"
+  sha256 "e0d26499c95b05e99c209f420c93e37107b94afca043198fd91be5fffabb1371"
 
   url "https://github.com/chang-07/snapbar/releases/download/v#{version}/SnapBar-#{version}-macos-arm64.dmg"
   name "SnapBar"
