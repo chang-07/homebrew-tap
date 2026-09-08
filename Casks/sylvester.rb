@@ -1,6 +1,6 @@
 cask "sylvester" do
-  version "0.2.0"
-  sha256 "4d3c1f42a3d501bfefa89c8d35e15a01d44d133d6547ef0c12d641bc0b0c96cc"
+  version "0.3.0"
+  sha256 "2001dcd61df4a38495b4956f20a01936cdce6f00209df44318ec1e5283287b78"
 
   url "https://github.com/chang-07/sylvester/releases/download/v#{version}/Sylvester-#{version}-macos-arm64.dmg"
   name "Sylvester"
